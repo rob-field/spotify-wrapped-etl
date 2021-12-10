@@ -6,3 +6,4 @@ listening_plot.png
 .ipynb_checkpoints
 .cache
 venv/*
+requirements.txt
