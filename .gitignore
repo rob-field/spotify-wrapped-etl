@@ -1,0 +1,8 @@
+Procfile
+SQLalchemy_query_email.ipynb
+spotify_etl_script.ipynb
+__pycache__
+listening_plot.png
+.ipynb_checkpoints
+.cache
+venv/*
