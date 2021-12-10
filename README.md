@@ -16,5 +16,5 @@ The cleaned data was then store in temporary tables before being loaded into a l
 ## Summary Email
 SqlAlchemy was used to query the database (although SQL could have also been used), and functions were defined to return useful summary metrics. This information was then delivered by email to a specified user, also via Python.
 
-###Automation
+## Automation
 Apache Airflow DAGs were then defined to schedule to retrieval of the listening data from spotify, database loading and the sending of the weekly email at appropriate time points.
