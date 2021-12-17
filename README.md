@@ -10,7 +10,9 @@ Spotify API endpoints were used to extract user listening history,
 This data in turn was transformed using Python, which included data cleaning, and the engineering of useful features to provide unique identification and to lay the foundation for interesting summary metrics further down the pipeline.
 
 ## Load
-The cleaned data was then store in temporary tables before being loaded into a local PostgreSQL database, which had been created using the appropriate SQL code to inlcude primary/foreign keys and data types. PgAdmin4 was used as a database management tool in parallel.
+The cleaned data was then store in temporary tables before being loaded into a local PostgreSQL database, which had been created using the appropriate SQL code to inlcude primary/foreign keys and data types. PgAdmin4 was used as a database management tool in parallel.  
+
+![alt text](https://github.com/rob-field/spotify-wrapped-etl/blob/main/etl_schema%20(Small).PNG?raw=true)  
 
 
 ## Summary Email
